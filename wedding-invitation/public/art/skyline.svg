@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1820" height="1024" viewBox="0 0 1820 1024">
+  <defs>
+    <path id="dome" d="M-50 0C-52-30-30-46-10-60C-4-66 0-74 0-84C0-74 4-66 10-60C30-46 52-30 50 0Z"/>
+    <g id="chhatri">
+      <rect x="-38" y="-6" width="76" height="8"/>
+      <rect x="-32" y="-52" width="8" height="46"/>
+      <rect x="24" y="-52" width="8" height="46"/>
+      <rect x="-4" y="-52" width="8" height="46"/>
+      <rect x="-40" y="-60" width="80" height="9"/>
+      <use href="#dome" transform="translate(0 -60) scale(0.55)"/>
+    </g>
+    <pattern id="win" width="44" height="76" patternUnits="userSpaceOnUse">
+      <path d="M12 70V40C12 30 22 22 22 22C22 22 32 30 32 40V70Z" fill="#a77a48"/>
+    </pattern>
+  </defs>
+  <g fill="#e6cba0">
+    <path d="M0 880C200 836 380 856 540 820C700 786 860 830 1020 812C1200 792 1380 836 1560 812C1680 798 1760 816 1820 808V1024H0Z"/>
+    <rect x="180" y="740" width="360" height="160"/>
+    <use href="#dome" transform="translate(360 740) scale(1.1)"/>
+    <rect x="1320" y="720" width="320" height="180"/>
+    <use href="#chhatri" transform="translate(1420 720) scale(1.1)"/>
+    <use href="#chhatri" transform="translate(1560 720)"/>
+  </g>
+  <g fill="#7d8a52">
+    <ellipse cx="40" cy="850" rx="16" ry="62"/><ellipse cx="72" cy="860" rx="12" ry="48"/>
+    <ellipse cx="584" cy="846" rx="15" ry="64"/><ellipse cx="1236" cy="846" rx="15" ry="64"/>
+    <ellipse cx="1776" cy="850" rx="16" ry="62"/>
+  </g>
+  <g fill="#cfa56c">
+    <rect x="0" y="900" width="1820" height="124"/>
+    <rect x="96" y="760" width="180" height="140"/>
+    <use href="#chhatri" transform="translate(186 760)"/>
+    <rect x="300" y="800" width="260" height="100"/>
+    <use href="#dome" transform="translate(430 800) scale(0.9)"/>
+    <rect x="610" y="640" width="24" height="260"/>
+    <use href="#dome" transform="translate(622 640) scale(0.26)"/>
+    <rect x="1186" y="640" width="24" height="260"/>
+    <use href="#dome" transform="translate(1198 640) scale(0.26)"/>
+    <rect x="640" y="700" width="540" height="200"/>
+    <rect x="720" y="620" width="380" height="80"/>
+    <rect x="840" y="596" width="140" height="24"/>
+    <use href="#dome" transform="translate(910 596) scale(1.6)"/>
+    <use href="#chhatri" transform="translate(760 620) scale(0.8)"/>
+    <use href="#chhatri" transform="translate(1060 620) scale(0.8)"/>
+    <rect x="1260" y="780" width="280" height="120"/>
+    <use href="#chhatri" transform="translate(1400 780)"/>
+    <rect x="1580" y="740" width="160" height="160"/>
+    <use href="#dome" transform="translate(1660 740)"/>
+  </g>
+  <path d="M0 896H1820" stroke="#cfa56c" stroke-width="12" stroke-dasharray="16 12"/>
+  <g fill="url(#win)">
+    <rect x="660" y="740" width="500" height="120"/>
+    <rect x="740" y="630" width="340" height="66"/>
+    <rect x="110" y="790" width="152" height="90"/>
+    <rect x="1280" y="800" width="240" height="80"/>
+    <rect x="1596" y="770" width="132" height="110"/>
+  </g>
+  <path d="M0 960H1820" stroke="#b98d5e" stroke-width="3" opacity="0.6"/>
+</svg>
